@@ -2,9 +2,9 @@ package nl.ou.refd.test.analysis.subdetectors.classes;
 
 public class ClassCExtendsB extends ClassBExtendsA{
 	
-	Object FieldC1;
-	Object FieldC2;
+	Object fieldC1;
+	Object fieldC2;
 	
-	void MethodC1() { }
-	void MethodC2() { }
+	public void methodC1() { }
+	private void methodC2() { }
 }

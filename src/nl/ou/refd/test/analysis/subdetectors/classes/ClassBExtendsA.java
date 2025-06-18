@@ -2,9 +2,10 @@ package nl.ou.refd.test.analysis.subdetectors.classes;
 
 public class ClassBExtendsA extends ClassANoSuper {
 
-	Object FieldB1;
-	Object FieldB2;
+	Object fieldB1;
+	Object fieldB2;
 	
-	void MethodB1() { }
-	void MethodB2() { }
+	public void methodB1() { }
+	protected void methodB2() { }
+	private void methodB3() { }
 }

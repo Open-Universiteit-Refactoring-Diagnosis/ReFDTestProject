@@ -2,9 +2,12 @@ package nl.ou.refd.test.analysis.subdetectors.classes;
 
 public class ClassANoSuper { 
 	
-	Object FieldA1;
-	Object FieldA2;
+	Object fieldA1;
+	Object fieldA2;
 	
-	void MethodA1() { }
-	void MethodA2() { }
+	public ClassANoSuper() { }
+	
+	public void methodA1() { }
+	private void methodA2() { }
+	protected void methodA3() { }
 }
