@@ -19,3 +19,6 @@ To setup the environment to run the tests do the following:
 
 ## Editing the project
 If you plan on editing the ReFDTestProject in a different workspace or IDE make sure to enable auto refreshing of the test workspace on startup. Open the test workspace and go to Window -> Preferences -> General -> 'Startup and Shutdown' and enable 'Refresh workspace on startup'.
+
+## Notes
+Errors related to git resource decorators resulting from a 'disposed device' could show up on the console during testing if git is used. Prevent them by disabling git label decorations in the test workspace. Make sure your test workspace is open. Go to Window -> Preferences -> General -> Appearance -> 'Label Decorations' and uncheck 'Git Resources'.
